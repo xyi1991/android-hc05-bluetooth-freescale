@@ -19,20 +19,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
-        <Button android:id="@+id/button_mas"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sendMas"
-        /> 
-        <Button android:id="@+id/button_menos"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sendMenos"
-        />               
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/logo" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conectarse al módulo bluetooth HC-05" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_mas"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/sendMas" />
+               
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_menos"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/sendMenos" />
+
+    </LinearLayout>
+
 </LinearLayout>
