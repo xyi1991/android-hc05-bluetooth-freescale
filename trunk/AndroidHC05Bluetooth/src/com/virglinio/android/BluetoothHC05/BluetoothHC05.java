@@ -297,5 +297,4 @@ public class BluetoothHC05 extends Activity {
         }
         return false;
     }
-
 }
